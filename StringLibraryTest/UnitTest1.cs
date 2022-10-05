@@ -10,7 +10,7 @@ namespace StringLibraryTest
         public void TestStartsWithUpper()
         {
             // Tests that we expect to return true.
-            string[] words = { "Alphabet", "Zebra", "ABC", "Αθήνα", "Москва" };
+            string[] words = { "Alphabet", "Zebra", "ABC", "Αθήνα", "Москва", "Test" };
             foreach (var word in words)
             {
                 bool result = word.StartsWithUpper();
